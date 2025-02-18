@@ -1,0 +1,56 @@
+.markdown :global(h1) {
+  @apply text-3xl font-bold mb-8 leading-tight;
+}
+
+.markdown :global(h2) {
+  @apply text-2xl font-semibold mb-6 leading-tight;
+}
+
+.markdown :global(h3) {
+  @apply text-xl font-semibold mb-4 leading-snug;
+}
+
+.markdown :global(h4) {
+  @apply text-lg font-semibold mb-3 leading-snug;
+}
+
+.markdown :global(h5),
+.markdown :global(h6) {
+  @apply text-base font-semibold mb-2 leading-normal;
+}
+
+.markdown :global(p) {
+  @apply text-base leading-7 mb-4;
+}
+
+.markdown :global(ul) {
+  @apply list-disc pl-8 mb-4 space-y-2;
+}
+
+.markdown :global(ol) {
+  @apply list-decimal pl-8 mb-4 space-y-2;
+}
+
+.markdown :global(blockquote) {
+  @apply bg-muted/50 p-4 rounded-lg border-l-4 border-primary my-4;
+}
+
+.markdown :global(code) {
+  @apply font-mono bg-muted/50 px-1.5 py-0.5 rounded text-sm;
+}
+
+.markdown :global(a) {
+  @apply text-primary hover:underline;
+}
+
+.markdown :global(pre) {
+  @apply bg-muted p-4 rounded-lg mb-4 overflow-x-auto;
+}
+
+.markdown :global(pre code) {
+  @apply bg-transparent p-0 text-sm;
+}
+
+.markdown :global(img) {
+  @apply max-w-full h-auto rounded-lg my-4;
+}
